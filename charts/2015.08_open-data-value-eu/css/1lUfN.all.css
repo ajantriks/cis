@@ -76,11 +76,13 @@ a { color: #0088CC; }
     font-size: 12px;
     margin: 0 0px;
     background: #fff;
+    border: 2px solid;
+    padding: 10px;
 }
 
 h1 {
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 600;
     margin: 0 0 10px;
     text-align: left;
 }
