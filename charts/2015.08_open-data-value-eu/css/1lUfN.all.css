@@ -15,10 +15,11 @@
 .chart #footer {
   min-height: 1px;
   position: absolute;
-  bottom: 0;
+  bottom: 20;
   left: 0;
   right: 0;
-  height: 25px;
+  height: 20px;
+  margin: 0 7px;
 }
 .chart #footer .footer-left,
 .chart #footer .footer-right {
