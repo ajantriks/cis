@@ -113,7 +113,7 @@
                 </div>
                             </div>
                         <div class="alternative-signins">
-               Oder melde dich an über:                                     <a href="https://www.facebook.com/v2.2/dialog/oauth?client_id=332893466915193&amp;redirect_uri=http%3A%2F%2Fdatawrapper.de%2Fsignin%2Ffacebook&amp;state=f4d22ff4477205bc85e4856b336ed99e&amp;sdk=php-sdk-4.0.12&amp;scope="><i class="fa fa-facebook"></i> Facebook</a>
+               Oder melde dich an über:                                     <a href="https://www.facebook.com/v2.2/dialog/oauth?client_id=332893466915193&amp;redirect_uri=http%3A%2F%2Fdatawrapper.de%2Fsignin%2Ffacebook&amp;state=666cf50f392f400f1cf2f0bff49cb331&amp;sdk=php-sdk-4.0.12&amp;scope="><i class="fa fa-facebook"></i> Facebook</a>
                                     <a href="/signin/github"><i class="fa fa-github"></i> Github</a>
                                     <a href="/signin/twitter"><i class="fa fa-twitter"></i> Twitter</a>
                             </div>
@@ -345,15 +345,26 @@
 <svg version="1.1" baseProfile="basic" id="Ebene_1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
 	 viewBox="0 0 100 100" xml:space="preserve">
-<g>
-	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="79.5" x2="91" y2="79.5"/>
-	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="59.5" x2="91" y2="59.5"/>
-	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="39.5" x2="91" y2="39.5"/>
-	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="19.5" x2="91" y2="19.5"/>
-</g>
-<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="75.814" x2="35.937" y2="42.674"/>
-<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="35.937" y1="42.674" x2="62.719" y2="55.584"/>
-<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="62.719" y1="55.584" x2="90.562" y2="23.755"/>
+<path d="M50.751,48.738l0.075-41.294c6.559,0.191,12.831,1.83,18.648,4.873C89.948,23.025,98.29,47.639,88.62,68.544L50.751,48.738z
+	"/>
+<path d="M49.477,93.607c-6.895-0.001-13.791-1.702-19.942-4.92C19.333,83.354,11.821,74.366,8.381,63.382S5.984,40.73,11.319,30.531
+	C18.458,16.883,32.348,8.082,47.657,7.466l0.092,42.482l0.072,0.258l0.268,0.442l0.196,0.184l39.004,20.4
+	C79.724,85.047,65.283,93.607,49.48,93.607H49.477z"/>
+</svg>
+
+        	</div>
+        	        	<div class="charttype icon">
+        		<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<svg version="1.1" baseProfile="basic" id="Ebene_1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
+	 viewBox="0 0 100 100" xml:space="preserve">
+<path d="M70.475,12.317c-5.817-3.043-12.09-4.682-18.648-4.873l-0.053,29.288c6.397,0.638,11.394,6.037,11.394,12.603
+	c0,1.725-0.348,3.368-0.972,4.866L89.62,68.544C99.29,47.639,90.948,23.025,70.475,12.317z"/>
+<path d="M60.71,56.809c-2.305,3.144-6.014,5.192-10.21,5.192c-6.996,0-12.667-5.671-12.667-12.667c0-6.39,4.603-11.64,10.753-12.507
+	l0.07-29.36c-15.309,0.616-29.198,9.417-36.337,23.064C6.984,40.73,5.94,52.397,9.381,63.382s10.953,19.972,21.154,25.306
+	c6.151,3.218,13.047,4.919,19.942,4.92h0.004c15.803,0,30.243-8.561,37.809-22.374L60.71,56.809z"/>
 </svg>
 
         	</div>
@@ -397,12 +408,12 @@
 <svg version="1.1" baseProfile="basic" id="Ebene_1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
 	 viewBox="0 0 100 100" xml:space="preserve">
-<rect x="22" y="52" width="11" height="39"/>
-<rect x="10" y="47" width="10" height="44"/>
-<rect x="52" y="9.5" width="11" height="81.5"/>
-<rect x="40" y="28.667" width="10" height="62.333"/>
-<rect x="82" y="47" width="10.667" height="44"/>
-<rect x="69" y="36" width="11" height="55"/>
+<rect x="11" y="54.958" width="22.941" height="35.042"/>
+<rect x="11" y="22.105" width="22.941" height="30.662"/>
+<rect x="38.529" y="60.433" width="22.941" height="29.567"/>
+<rect x="38.529" y="12.25" width="22.941" height="45.993"/>
+<rect x="66.059" y="54.958" width="22.941" height="35.042"/>
+<rect x="66.059" y="30.866" width="22.941" height="21.901"/>
 </svg>
 
         	</div>
@@ -755,11 +766,15 @@
 <svg version="1.1" baseProfile="basic" id="Ebene_1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
 	 viewBox="0 0 100 100" xml:space="preserve">
-<path d="M70.475,12.317c-5.817-3.043-12.09-4.682-18.648-4.873l-0.053,29.288c6.397,0.638,11.394,6.037,11.394,12.603
-	c0,1.725-0.348,3.368-0.972,4.866L89.62,68.544C99.29,47.639,90.948,23.025,70.475,12.317z"/>
-<path d="M60.71,56.809c-2.305,3.144-6.014,5.192-10.21,5.192c-6.996,0-12.667-5.671-12.667-12.667c0-6.39,4.603-11.64,10.753-12.507
-	l0.07-29.36c-15.309,0.616-29.198,9.417-36.337,23.064C6.984,40.73,5.94,52.397,9.381,63.382s10.953,19.972,21.154,25.306
-	c6.151,3.218,13.047,4.919,19.942,4.92h0.004c15.803,0,30.243-8.561,37.809-22.374L60.71,56.809z"/>
+<g>
+	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="79.5" x2="91" y2="79.5"/>
+	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="59.5" x2="91" y2="59.5"/>
+	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="39.5" x2="91" y2="39.5"/>
+	<line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="9" y1="19.5" x2="91" y2="19.5"/>
+</g>
+<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="10" y1="75.814" x2="35.937" y2="42.674"/>
+<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="35.937" y1="42.674" x2="62.719" y2="55.584"/>
+<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-miterlimit="10" x1="62.719" y1="55.584" x2="90.562" y2="23.755"/>
 </svg>
 
         	</div>
@@ -770,25 +785,12 @@
 <svg version="1.1" baseProfile="basic" id="Ebene_1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
 	 viewBox="0 0 100 100" xml:space="preserve">
-<rect x="13" y="47" width="22" height="44"/>
-<rect x="40" y="12" width="21" height="79"/>
-<rect x="67" y="36" width="21" height="55"/>
-</svg>
-
-        	</div>
-        	        	<div class="charttype icon">
-        		<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
-<svg version="1.1" baseProfile="basic" id="Ebene_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
-	 viewBox="0 0 100 100" xml:space="preserve">
-<rect x="11" y="54.958" width="22.941" height="35.042"/>
-<rect x="11" y="22.105" width="22.941" height="30.662"/>
-<rect x="38.529" y="60.433" width="22.941" height="29.567"/>
-<rect x="38.529" y="12.25" width="22.941" height="45.993"/>
-<rect x="66.059" y="54.958" width="22.941" height="35.042"/>
-<rect x="66.059" y="30.866" width="22.941" height="21.901"/>
+<rect x="22" y="52" width="11" height="39"/>
+<rect x="10" y="47" width="10" height="44"/>
+<rect x="52" y="9.5" width="11" height="81.5"/>
+<rect x="40" y="28.667" width="10" height="62.333"/>
+<rect x="82" y="47" width="10.667" height="44"/>
+<rect x="69" y="36" width="11" height="55"/>
 </svg>
 
         	</div>
@@ -821,11 +823,9 @@
 <svg version="1.1" baseProfile="basic" id="Ebene_1"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
 	 viewBox="0 0 100 100" xml:space="preserve">
-<path d="M50.751,48.738l0.075-41.294c6.559,0.191,12.831,1.83,18.648,4.873C89.948,23.025,98.29,47.639,88.62,68.544L50.751,48.738z
-	"/>
-<path d="M49.477,93.607c-6.895-0.001-13.791-1.702-19.942-4.92C19.333,83.354,11.821,74.366,8.381,63.382S5.984,40.73,11.319,30.531
-	C18.458,16.883,32.348,8.082,47.657,7.466l0.092,42.482l0.072,0.258l0.268,0.442l0.196,0.184l39.004,20.4
-	C79.724,85.047,65.283,93.607,49.48,93.607H49.477z"/>
+<rect x="13" y="47" width="22" height="44"/>
+<rect x="40" y="12" width="21" height="79"/>
+<rect x="67" y="36" width="21" height="55"/>
 </svg>
 
         	</div>
@@ -880,24 +880,24 @@
                                 </a>
                             </div>
                         </li>
-                                            <li class="chart" data-id="RUOfP">
-                            <div data-id="RUOfP">
-                                <a href="/gallery/#/RUOfP" >
-                                    <div class="thumb" style="background-image: url(/static/plugins/jpp-branding/charts/RUOfP.png);"></div>
-                                </a>
-                            </div>
-                        </li>
-                                            <li class="chart" data-id="dlpTh">
-                            <div data-id="dlpTh">
-                                <a href="/gallery/#/dlpTh" >
-                                    <div class="thumb" style="background-image: url(/static/plugins/jpp-branding/charts/dlpTh.png);"></div>
-                                </a>
-                            </div>
-                        </li>
                                             <li class="chart" data-id="UY8dl">
                             <div data-id="UY8dl">
                                 <a href="/gallery/#/UY8dl" >
                                     <div class="thumb" style="background-image: url(/static/plugins/jpp-branding/charts/UY8dl.png);"></div>
+                                </a>
+                            </div>
+                        </li>
+                                            <li class="chart" data-id="B5zUl">
+                            <div data-id="B5zUl">
+                                <a href="/gallery/#/B5zUl" >
+                                    <div class="thumb" style="background-image: url(/static/plugins/jpp-branding/charts/B5zUl.png);"></div>
+                                </a>
+                            </div>
+                        </li>
+                                            <li class="chart" data-id="qv10T">
+                            <div data-id="qv10T">
+                                <a href="/gallery/#/qv10T" >
+                                    <div class="thumb" style="background-image: url(/static/plugins/jpp-branding/charts/qv10T.png);"></div>
                                 </a>
                             </div>
                         </li>
@@ -1078,7 +1078,7 @@ $('.brands .show-more button').click(function() {
 
         <p class="pull-right" style="text-align:right">
           <a href="#top">Zurück nach oben</a>
-          <span class="version">version <a href="https://github.com/datawrapper/datawrapper/blob/master/CHANGELOG.md#196">1.9.6</a>  (<a href="https://github.com/datawrapper/datawrapper/tree/1ace1cbb800616ccf372129cc9714fc3d70574c5">master</a>)</span>
+          <span class="version">version <a href="https://github.com/datawrapper/datawrapper/blob/master/CHANGELOG.md#196">1.9.6</a>  (<a href="https://github.com/datawrapper/datawrapper/tree/c1440bd4c083992ae48c9c621ae3e9494562e954">master</a>)</span>
         </p>
 
         <p>
