@@ -9,11 +9,20 @@ body {
   color: #444444;
   font-family: Arial,Helvetica,sans-serif;
   font-size: 75%;
+  line-height: 1.4em;
   }
   a {
   color: #4D87C7;
   text-decoration: none;
-}
+  }
+  a:hover,
+  a:active,
+  a:focus {
+  text-decoration: underline;
+  }
+  #Footer {
+  padding-left: 5px;
+  }
 </style>
 </head>
 <body>
@@ -1698,30 +1707,37 @@ return(data);
 function drawChartTreeMapID152538949357() {
 var data = gvisDataTreeMapID152538949357();
 var options = {};
-options["width"] =    600;
-options["height"] =    500;
+options["width"] =    800;
+options["height"] =    800;
 
 
     var chart = new google.visualization.TreeMap(
     document.getElementById('TreeMapID152538949357')
     );
     chart.draw(data,{
-		minColor: '#00a865',
-		midColor: '#00a865',
-		maxColor: '#00a865',
+		highlightOnMouseOver: false,
+		maxDepth: 1,
+		maxPostDepth: 2,
+		minColor: '#6495ED',
+		midColor: '#79DEEC',
+		maxColor: '#50C878',
 		headerHeight: 30,
 		fontColor: '#222',
-		showScale: false,
+		showScale: true,
 		generateTooltip: showFullTooltip,
-		textStyle: {
-			fontName: 'Duru Sans',
-			fontSize: '13px',
-		},
 	});
+	
+    function showFullTooltip(row, size, value) {
+	  return '<div style="background:rgba(256,256,256,0.9); padding:10px; border: 2px solid #999; font-size: 13px;" >' +
+		'<b>' + data.getValue(row, 0) + '</b><br>' + 
+		'<br>' +
+		'Total Years on MAG: '  + data.getValue(row, 2) + '<br>' +
+		'Stakeholder Type: '  + data.getValue(row, 3) + '<br>' +
+		' </div>';
+	}
 
 }
   
- 
 // jsDisplayChart
 (function() {
 var pkgs = window.__gvisPackages = window.__gvisPackages || [];
@@ -1769,13 +1785,12 @@ callbacks.shift()();
 <!-- divChart -->
   
 <div id="TreeMapID152538949357" 
-  style="width: 600; height: 500;">
+  style="width: 100%; height: 500px;">
 </div>
- <div><span>Data: d &#8226; Chart ID: <a href="Chart_TreeMapID152538949357.html">TreeMapID152538949357</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.8</a></span><br /> 
 <!-- htmlFooter -->
-<span> 
-  R version 3.1.2 (2014-10-31) 
-  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/treemap">Documentation and Data Policy</a>
-</span></div>
+ <div id="Footer"><span><!-- Chart ID: <a href="Chart_TreeMapID152538949357.html">TreeMapID152538949357</a> -->
+Created by Jyoti Panday and Sumandro Chattapadhyay of <a href="http://cis-india.org/">the Centre for Internet and Society</a>.<br />
+Developed using <a href="https://google-developers.appspot.com/chart/">Google Chart Tools</a>, <a href="http://cran.r-project.org/">R 3.1.2</a>, and <a href="https://github.com/mages/googleVis">googleVis-0.5.8</a>. <a href="https://developers.google.com/terms/">Google Terms of Use</a> and <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/treemap">Data Policy</a>.<br />
+Data and chart shared under Creative Commons <a href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 4.0 International</a> license.</span></div>
 </body>
 </html>
